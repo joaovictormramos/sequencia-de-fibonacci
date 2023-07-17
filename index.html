@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Sequência de Fibonnaci</title>
+</head>
+<body>
+    <header>
+        <h1>Sequência de Fibonacci</h1>
+        <p>A sequência de Fibonacci é uma sequência de números, onde o número 1 é o primeiro e segundo termo da ordem e os demais são originados pela soma de seus antecessores.</p>
+    </header>
+
+    <main>
+        <div id="pai">
+            <span id="numeros">
+                <p id="num_anterior1"></p>
+            </span>
+            <span id="numeros">
+                <p id="num_anterior2"></p>
+            </span>
+        </div>
+        <input id="palpite" type="text" inputmode="numeric" placeholder="Próximo número" onfocus="this.value=''"> <button onclick="palpite()">CHUTE</button>
+    </main>    
+
+    <script src="jogo.js"></script>
+</body>
+</html>
